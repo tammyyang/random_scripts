@@ -1,0 +1,12 @@
+* 关于PLA“是不是要先定原点
+    http://www.plurk.com/p/jfirqv
+    https://class.coursera.org/ntumlone-001/forum/thread?thread_id=73
+    https://courses.cs.washington.edu/courses/cse415/03wi/slides/Neural/sld009.htm
+    對於兩個維度的點 事實上還有一個w0, x0=1 所以for a given vector [2,1] 應該侍從[1,2,1]開始算起
+    平面的原點是(1,0,0) 繞著此點旋轉 然後投影到二維平面 (z軸在第一個或是最後一個都一樣)
+    ** 不管是(1,0,0,0,0) 或是 (0,0,0,0,1) 答案都一樣
+
+* HW Q15-20
+http://wizmann.tk/ml-foundations-pla.html
+http://ideone.com/w5cd91
+http://ideone.com/YEgWKD
